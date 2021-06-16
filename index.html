@@ -1,49 +1,58 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <title>proyecto-figma</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css\style.css">
-    
-  </head>
-  <div class="wrapper">
+
+   </head>
   <body>
     <header>
       <div class="contenedor-titulo">
         <h2>Hola, Jesús</h2>
-         <img src="assets\img\bell.jpg "alt="campana">
+         <img src="assets\img\notifications_24px.png"alt="campana">
         </div>
     </header>
     <main>
+        <section class="contenedor-ref-1">
         <div class="contenedor-imagen">
-             <div class="texto">
+               <div class="texto-1">
                <h4>Eres un ahorrador</h4>
-               <h5>
-                  Tu saldo
-                </h5> 
-                <h2>
-                  $1.750.000
-                </h2>
+              </div>
+              <div class="texto-2"> 
+              <h4> Tu saldo</h4>
+                </div> 
+               <div class="texto-3">
+                <h4> $1.750.000</h4>
+              </div>
+                 
+                <div class="img-texto">
                 <img src="assets\img\IMG.png" alt="niña">
               </div>
            </div>
-        <div class="contenedor-columnas">
-             <TABLE>
-              <TR>
-                <TD class="inversion">inversion</TD>
-                <TD class="dinero-inv">$1.600.000</TD>
-              </TR>
-              <TR><TD class="rendimiento">Rendimiento</TD>
-                <TD class="dinero-rend">-$30.000</TD>
-              </TR>
-            </TABLE>
-        </div>
-        <div class="contenedor-tus-metas">
-        <h2>Tus metas</h2>
+        </section>
+        <section class="contenedor-tabla">
+            <div class="fila-1">
+              <p>inversion</p>
+              <h3>$1.600.000</h3>
+             </div>
+             <div class="fila-2">
+              <p>Rendimiento</p>
+              <h3>-$30.000</h3>
+            </div>
+
+         </section>
+         <section class="contenedor-tus metas">
+           <div class="texto-tus-metas"> Tus metas
+          </div>
           <div class="logo-add">
          <img src="assets\img\add_circle_outline_24px.png"alt="add">
          </div>
         </div>
-
+      </section>
+  
       <section class="viajes">
         <img src="assets\img\palmera.png" alt="palmera">
         <h2>Viaje a islas canarias</h2>
@@ -61,12 +70,19 @@
           <h6>$0</h6>
         </section>
 
-        <div class="portafolio">
-           <h3>Conoce tu portafolio</h3>
-            <a href="/" class="boton-estratega">Estratega</a>
+        <section class="contenedor-portafolio">
+        <div class="menu-portafolio">
+          <div class="portafolio">
+          Conoce tu portafolio
+          </div>
+          <div class="boton-estatrega">
+            <p>Estratega</p>
+          </div>
         </div>
+       
+      </section>
 
-
+        <section class="info-portafolio">
           <div class="informacion-portafolio">
             <img src="assets\img\robot.PNG" alt="robot">
             <div class="texto-portafolio">
@@ -80,15 +96,21 @@
             </div>
              <p class="parrafo">Tu dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor</p>
             </div>
+          </section>
+          <section class="contenedor-pautas">
             <div class="titulo-pautas">
-              <h3>Las Pautas del ahorro</h3>
-            </div>
+            <p>Las P*ut@s del ahorro</p>
+          </div>  
+          </section>
+          <section class="contenedor-media">
           <div class="contenedor-video">
            <img style="border-radius: 20px 20px 0 0;"src="assets\img\img-video.png" alt="imagen-video">
            <img  style="border-radius: 0 0 20px 20px;"id="fondo-azul"src="assets\img\Vector 6.png" alt="fondo azul">
+           <img class="icono-play"src="assets\img\play_circle_outline_24px.png" alt="">
            <h2>Esto es AHORRO</h2>
            <p>Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti.</p>
           </div>
+        </section>
           <div class="puntos">
            <img src="assets\img\Ellipse azul.png" alt="">
            <img id="img-2" src="assets\img\Ellipse gris.png" alt="">
@@ -117,35 +139,29 @@
         </div>
         <img src="assets\img\tarjeta.png" alt="">
       </div>
-              </div>
+          </div>
             </section>
     </main>
      </div>
-     <footer class="footer">
-      <section class="contenedor-nav">
-        <div class="grid">
-          <div class="a">
-            <img src="assets\img\home_24px.png" alt="">
-            <h4>inicio</h4>
-          </div>
-          <div class="b">
-            <h4>Historial</h4>
-          </div>
-          <div class="c">
-            <img src="assets\img\add+.PNG" alt="">
-            <h4>Ahorrar</h4>
-          </div>
-          <div class="d">
-            <h4>Mi perfil</h4>
-          </div>
-          <div class="e"> 
-            <h4>Más</h4>
-          </div>
+      <footer>
+      <div class="contenedor-final">
+        <div class="icono-footer">
+          <img src="assets\img\home.png" alt="">
+            </div>
+        <div class="icono-footer">
+          <img src="assets\img\history.png" alt="">
+           </div>
+        <div class="icono-add+">
+          <img src="assets\img\invest.png" alt="">
         </div>
-      </section>
-   
+        <div class="icono-footer">
+          <img src="assets\img\profile.png" alt="">
+        </div>
+        <div class="icono-footer">
+          <img src="assets\img\more.png" alt="">
+        </div>
+      </div>
     </footer>
-  
   
 
 </body></html>
